@@ -26,7 +26,7 @@ export function PrivatePage() {
         </ul>
         <Button
           onClick={() => {
-            localStorage.removeItem("auth_token");
+            localStorage.removeItem("jtwToken");
             navigate("/");
           }}
         >
